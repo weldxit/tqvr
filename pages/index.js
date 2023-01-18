@@ -127,7 +127,7 @@ export default function Home() {
                 </h2>
               </Link>
             </div>
-            <div className={style.imagediv}>
+            {/* <div className={style.imagediv}>
               <Link href={"/"}>
                 <Image
                 fill={true}
@@ -168,7 +168,7 @@ export default function Home() {
                   30 Km long Wall | Great Wall
                 </h2>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -355,18 +355,6 @@ export default function Home() {
             </div>
             <div className={style.ytcontainer}>
               <iframe className={style.yframe} src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=l2Rpcmhzlms')}`} frameBorder="0"></iframe>
-            </div>
-            <div className={style.ytcontainer}>
-              <iframe className={style.yframe} src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameBorder="0"></iframe>
-            </div>
-            <div className={style.ytcontainer}>
-              <iframe className={style.yframe} src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameBorder="0"></iframe>
-            </div>
-            <div className={style.ytcontainer}>
-              <iframe className={style.yframe} src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameBorder="0"></iframe>
-            </div>
-            <div className={style.ytcontainer}>
-              <iframe className={style.yframe} src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameBorder="0"></iframe>
             </div>
             <div className={style.ytcontainer}>
               <iframe className={style.yframe} src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameBorder="0"></iframe>
