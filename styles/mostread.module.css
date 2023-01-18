@@ -56,7 +56,7 @@ margin-bottom: 3rem;
 }
 
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1500px){
     .h1{
         color: rgb(247, 247, 247);
         position: absolute;
