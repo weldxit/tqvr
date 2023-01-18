@@ -56,7 +56,7 @@ margin-bottom: 3rem;
 }
 
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1600px){
     .h1{
         color: rgb(247, 247, 247);
         position: absolute;
@@ -68,8 +68,44 @@ margin-bottom: 3rem;
     .mostread{
         position: relative;
     box-sizing: border-box;
-    width: 208px;
+    width: 260px;
     height: 214px;
     background-color: black;
+    }
+
+    .mostreadcontainer{
+            /* padding-top: 1rem; */
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(224, 221, 244);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 0.4rem;
+    /* row-gap: 0.4rem; */
+    /* grid-column-gap: 0.3rem; */
+    /* column-gap: 0.3rem; */
+    /* justify-content: center; */
+    justify-items: center;
+    align-items: center;
+    }
+
+
+.flexitem {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    }
+
+    .sidehead {
+        background-color: blueviolet;
+        margin: 0 0.5rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 5rem;
     }
 }
