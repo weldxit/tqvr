@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import style from '../../styles/Mostread.module.css'
+import style from '../../styles/mostread.module.css'
 const MostReadings = () => {
     return (
         <div className={style.flexitem}>
