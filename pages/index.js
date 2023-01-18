@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import style from '../styles/Home.module.css'
 import Link from 'next/link'
 import MostReadings from './component/MostReading'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -171,16 +172,6 @@ export default function Home() {
             </div> */}
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
         {/* //////////////////////mid//////////////////////// */}
         <div className={style.mid}>
           <h1 className={style.heading}>Today</h1>
@@ -222,13 +213,13 @@ export default function Home() {
                   <h2 className={style.imagedivmain_para}>Mr.Robot targets the fsociety.</h2>
                 </Link>
               </div>
-              <div className={style.topnewsleft_img}>
+              <div id={style.remove0} className={style.topnewsleft_img}>
                 <Link href={'/'}>
                   <Image src={"https://cdn.pixabay.com/photo/2022/12/15/09/13/nature-7657230_960_720.jpg"} fill={true} alt={"my image"} />
                   <h2 className={style.imagedivmain_para}>Alan walkers next song, Thrilling !!</h2>
                 </Link>
               </div>
-              <div className={style.topnewsleft_img}>
+              <div id ={style.remove} className={style.topnewsleft_img}>
                 <Link href={'/'}>
                   <Image src={"https://cdn.pixabay.com/photo/2022/12/15/09/13/nature-7657230_960_720.jpg"} fill={true} alt={"my image"} />
                   <h2 className={style.imagedivmain_para}>Anonymous has taken away the Dark Web portals.</h2>
