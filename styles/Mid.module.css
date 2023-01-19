@@ -1,0 +1,255 @@
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    width: 76rem;
+  }
+  /* top news */
+  .topnews {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 23rem;
+    gap: 0.3rem;
+  }
+  
+  .today {
+    color: Red;
+    font-size: 2rem;
+  }
+  /* 
+  .imagediv {
+  
+    display: grid;
+    position: relative;
+    background-color: aqua;
+    box-sizing: content-box;
+    height: 9rem;
+    width: 16rem;
+  
+  
+  } */
+  /* 
+  .image{
+  height: 200;
+  width: 150;
+  } */
+  .imgwr {
+    height: auto;
+    width: auto;
+  }
+  
+  .topnewsleft {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.2rem;
+  }
+  
+  .imagedivmain {
+    margin: 0;
+    position: relative;
+    padding: 0.3rem;
+  }
+  
+  .imagedivmain,
+  .topnewsleft {
+    flex: 1;
+    height: 100%;
+  }
+  .topnewsleft_img {
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    width: initial;
+    height: 100%;
+    padding: 0.3rem;
+  }
+  
+  .imagedivmain_heading {
+    margin: 0;
+    padding: 0;
+    color: red;
+    box-sizing: content-box;
+  }
+  
+  .imagedivmain_para {
+    overflow: hidden;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: aliceblue;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* special news section */
+  .specialnews {
+    background-color: rgb(255, 255, 255);
+    border-top: 0.2ch solid gray;
+    color: rgb(255, 128, 0);
+    margin: 0 0 2rem 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* .specialnews::-webkit-scrollbar{
+    display: none;
+  } */
+  
+  .spgrid {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 0.2rem;
+  }
+  
+  .spcontainer {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 20rem;
+    width: 100%;
+  }
+  
+  .spimage {
+    position: relative;
+    display: inline-block;
+    height: 14rem;
+    width: 100%;
+    margin: 0.1rem;
+    padding: 0;
+  }
+  
+  .sphead {
+    color: rgba(0, 0, 0, 0.866);
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.1rem;
+    padding: 0;
+  
+    width: 22rem;
+  }
+  
+  .sppara {
+    font-weight: 500;
+    color: black;
+    opacity: 0.8;
+    margin: 0.1rem;
+    padding: 0;
+  
+    width: 22rem;
+  }
+  
+
+
+  @media screen and (max-width:1600px){
+    
+    .mid {
+        display: flex;
+        flex-direction: column;
+        width: 60rem;
+      }
+      .left_container,
+      .right_container {
+        position: relative;
+      
+        width: 17rem;
+        height: 143vh;
+      }
+  
+      .topnews{
+        position: relative;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        height: 18.25rem;
+        gap: 0.3rem;
+      }
+      .topnewsleft {
+        padding: 0;
+        margin: 0;
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0.2rem;
+        gap: 0.2rem;
+    }
+      
+  
+      .topnewsleft:nth-child(3){
+        display: none;
+      }
+      .topnewsleft:nth-child(4){
+        display: none;
+      }
+  
+      .imagediv{
+        position: relative;
+        margin-bottom: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        width: initial;
+        height: 10rem;
+        background-color: rgb(255, 255, 255);
+      }
+  
+      .spgrid{
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        grid-gap: 0.2rem;
+        gap: 0.2rem;
+      }
+      .spcontainer{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+        height: 19rem;
+        width: 19rem;
+        margin-bottom: 1rem;
+      }
+  
+      .spimage{
+        position: relative;
+        display: inline-block;
+        height: 14rem;
+        width: 100%;
+        margin: 0.1rem;
+        padding: 0;
+      }
+  
+      .sppara{
+        font-weight: 500;
+        color: black;
+        opacity: 0.8;
+        margin: 0.1rem;
+        padding: 0;
+        width: 100%;
+      }
+      .sphead{
+        color: rgba(0, 0, 0, 0.866);
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0.1rem;
+        padding: 0;
+        width: 100%;
+      }
+  }
+

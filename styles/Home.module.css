@@ -32,33 +32,6 @@ display: none;
 }
 
 
-.image {
-  position: relative;
-}
-.imagediv {
-  position: relative;
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  width: initial;
-  height: 11rem;
-  background-color: rgb(255, 255, 255);
-}
-
-.imagedivmain_para {
-  overflow: hidden;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.678);
-  color: aliceblue;
-  z-index: 10;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0;
-  height: auto;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 
 /* /////////////////////mid///////////////// */
 
@@ -280,99 +253,6 @@ width: 150;
     color: red;
   }
 
-    .mid {
-      display: flex;
-      flex-direction: column;
-      width: 60rem;
-    }
-    .left_container,
-    .right_container {
-      position: relative;
-    
-      width: 17rem;
-      height: 143vh;
-    }
-
-    .topnews{
-      position: relative;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: row;
-      height: 18.25rem;
-      gap: 0.3rem;
-    }
-    .topnewsleft {
-      padding: 0;
-      margin: 0;
-      display: grid;
-      /* grid-template-columns: 1fr; */
-      grid-template-rows: 1fr 1fr;
-      grid-gap: 0.2rem;
-      gap: 0.2rem;
-  }
-    
-
-    .topnewsleft:nth-child(3){
-      display: none;
-    }
-    .topnewsleft:nth-child(4){
-      display: none;
-    }
-
-    .imagediv{
-      position: relative;
-      margin-bottom: 0.3rem;
-      display: flex;
-      flex-direction: column;
-      width: initial;
-      height: 10rem;
-      background-color: rgb(255, 255, 255);
-    }
-
-    .spgrid{
-      margin: 0;
-      padding: 0;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      justify-items: center;
-      grid-gap: 0.2rem;
-      gap: 0.2rem;
-    }
-    .spcontainer{
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-items: flex-start;
-      height: 19rem;
-      width: 19rem;
-      margin-bottom: 1rem;
-    }
-
-    .spimage{
-      position: relative;
-      display: inline-block;
-      height: 14rem;
-      width: 100%;
-      margin: 0.1rem;
-      padding: 0;
-    }
-
-    .sppara{
-      font-weight: 500;
-      color: black;
-      opacity: 0.8;
-      margin: 0.1rem;
-      padding: 0;
-      width: 100%;
-    }
-    .sphead{
-      color: rgba(0, 0, 0, 0.866);
-      font-weight: 600;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      margin: 0.1rem;
-      padding: 0;
-      width: 100%;
-    }
     .yframe {
       width: 100%;
       height: 10rem;
